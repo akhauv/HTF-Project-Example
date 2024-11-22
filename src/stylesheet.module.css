@@ -1,0 +1,65 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.board {
+    padding: 5px; 
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 330px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebdbb2;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+    color: white;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.X {
+    color: #5d8845;
+}
+.O {
+    color: #458588;
+}
+.leaderboard {
+    display: flex;
+    flex-direction: row;
+    width: 250px; 
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.message { 
+    color: #b8ba37;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    width: 330px;
+    text-align: center;
+}
+.p {
+    color: #ebdbb2;
+    margin: 0;
+}
